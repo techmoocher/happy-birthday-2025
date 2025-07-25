@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <meta name="description" content="A special birthday surprise for my crush with a beautiful cake animation and heartfelt message.">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="cake-container">
+            <!-- <div class="cake-layer cake-top"></div>
+            <div class="cake-layer cream-top">
+                <div class="topping topping-1"></div>
+                <div class="topping topping-2"></div>
+                <div class="topping topping-3"></div>
+                <div class="topping topping-4"></div>
+                <div class="topping topping-5"></div>
+            </div> -->
+            <div class="cake-layer layer-3"></div>
+            <div class="cake-cream cream-2"></div>
+            <div class="cake-layer layer-2"></div>
+            <div class="cake-cream cream-1"></div>
+            <div class="cake-layer layer-1"></div>
+            <div class="cake-base"></div>
+            
+            <div class="candles">
+                <div class="candle candle-1"><div class="flame"></div></div>
+                <div class="candle candle-2"><div class="flame"></div></div>
+                <div class="candle candle-3"><div class="flame"></div></div>
+                <div class="candle candle-4"><div class="flame"></div></div>
+                <div class="candle candle-5"><div class="flame"></div></div>
+                <div class="candle candle-6"><div class="flame"></div></div>
+                <div class="candle candle-7"><div class="flame"></div></div>
+            </div>
+        </div>
+        
+        <button id="showCard" class="show-card-btn">Bất ngờ ở đây nè! ❤️</button>
+        
+        <div class="birthday-card" id="birthdayCard">
+            <div class="card-content">
+                <h1>Happy Birthday!</h1>
+                <p>Hế nhô người đẹp dỏi dang dễ thưn 👋,</p>
+                <p><strong>Chúc chị sinh nhật dui dẻ nhooooo</strong> 🎂🥳🎉</p>
+                <p>Năm qua chắc cũng nhìu trở ngại này nọ nhưng mà vẫn qua được hết là quá đỉnh lun. 🤩</p>
+                <p>Chúc chị tuổi mới xinh đẹp và dễ thương hơn nữaaaaa (dù chị xinh sẵn ròi). 😍</p>
+                <p>Chúc chị nhiều thành công hơn trong công việc và sự nghiệp nhoé (hong bít khi nào thì mở shop nhỉ). Đạt được hết những mục tiêu nhóooo. 😁💪</p>
+                <p>Bữa nhớ hình như chị đi thả đèn lồng gì đúng hem. Chúc những ước mơ của chị thành sự thật. 🍀</p>
+                <p>All the best wishes!!!</p>
+                <p class="signature">Happy birthday!!! (11-07-2025) ❤️</p>
+                <p class="signature"><strong>techmoocher 👾🦊</strong></p>
+                <button id="closeCard" class="close-btn">Close</button>
+                <button id="showGallery" class="surprise-btn">Có bất ngờ khác nữa nè ✨</button>
+            </div>
+        </div>
+        
+        <div class="gallery-container" id="galleryContainer">
+            <div class="instruction-overlay" id="instructionOverlay">
+                <div class="instruction-content">
+                    <p>Click or tap the image to reveal a hidden message! 😁</p>
+                </div>
+            </div>
+            
+            <div class="gallery-slider" id="gallerySlider">
+                <!-- Images will be loaded here via JavaScript -->
+            </div>
+            <button id="closeGallery" class="close-btn">Close Gallery</button>
+        </div>
+    </div>
+    
+    <audio id="bgMusic" loop>
+        <source src="music/happy-birthday.mp3" type="audio/mp3">
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
